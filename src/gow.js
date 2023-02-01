@@ -16,7 +16,7 @@ function War() {
   return (
 <div className="contain">
     <div className="kratos">
-        <p>Did You Die?</p>
+        <p>Did You Die??</p>
         <p className='deaths'>Deaths: <span className='dieNum'>{death}</span></p>
     </div>
     <div className="contain-btn">   
