@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url(https://twinfinite.net/wp-content/uploads/2022/11/God-of-War-Ragnarok-Fit-for-a-King-Favor-King-Hrolf-Kraki-Guide-2.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.kratos {
+    text-align: center;
+}
+
+.kratos p {
+    padding: 80px;
+    font-size: 70px;
+    color: #fff;
+}
+
+.dieNum {
+    color: red;
+}
+
+.contain-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.die {
+    margin: 0 20px;
+    padding: 40px;
+    background-color: rgba(9, 10, 10, 0.747);
+    cursor: pointer;
+    width: 180px;
+    border: 1px solid rgb(38, 198, 247);
+    color: #fff;
+}
+
+.die:hover {
+    background-color: rgba(9, 10, 10, 0.842);
+    transition: .3s ease-in;
+}
+
+.deaths {
+    font-family: 'Montserrat', sans-serif;
+}
